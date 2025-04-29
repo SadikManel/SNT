@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les Chapitres de SNT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Bienvenue sur mon site SNT !</h1>
+<p>Ce site présente les différents chapitres de Sciences Numériques et Technologie en classe de seconde.</p>
+
+<img src="./SNT.jpeg"  alt="Représentation du Web">
+
+<h2>Les chapitres de SNT :</h2>
+<ul>
+<a href="#programationpython">Programation Python</a><br/>
+<a href="#Donnéesstructurées">Données structurées</a><br/>
+<a href="#Réseauxsociaux">Réseaux sociaux</a><br/>
+<a href="#Informatiqueembarquéeetobjetsconnectés">Informatique embarquée et objets connectés</a><br/>
+<a href="#Photographienumérique">Photographie numérique</a><br/>
+<a href="#Localisation">Localisation</a><br/>
+<a href="#Cartographie">Cartographie</a><br/>
+<a href="#InternetetWeb">Internet et web</a><br/>
+
+
+
+
+<div id="programationpython">
+<table class="table-python">
+	<tr>
+	  <th><h3> <strong><em> Programmation Python</strong></em>
+	  </th>
+	</tr>
+	<tr>
+	  <td>
+	  Python est un langage de programmation simple et accessible, idéal pour débuter en seconde.
+		Il permet d’écrire des programmes pour résoudre des problèmes, faire des calculs, manipuler du texte ou créer des applications interactives.
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<strong>Variables :</strong><br>
+		<code>
+		  age = 16<br>
+		  nom = "Alice"
+		</code>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<strong>Opérations mathématiques :</strong><br>
+		<code>
+		  a = 5 + 3<br>
+		  b = 10 / 2
+		</code>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<strong>Conditions :</strong><br>
+		<code>
+		  if age &gt;= 18:<br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;print("Majeur")<br>
+		  else:<br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;print("Mineur")
+		</code>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<strong>Boucles :</strong><br>
+		<em>for :</em><br>
+		<code>
+		  for i in range(5):<br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+		</code><br><br>
+		<em>while :</em><br>
+		<code>
+		  i = 0<br>
+		  while i &lt; 5:<br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;print(i)<br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;i += 1
+		</code>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<strong>Fonctions :</strong><br>
+		<code>
+		  def dire_bonjour():<br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;print("Bonjour !")<br><br>
+		  dire_bonjour()
+		</code>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<strong>Listes :</strong><br>
+		<code>
+		  fruits = ["pomme", "banane", "cerise"]<br>
+		  print(fruits[0])  # Affiche "pomme"
+		</code>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<strong>Input utilisateur :</strong><br>
+		<code>
+		  nom = input("Quel est ton nom ? ")<br>
+		  print("Bonjour", nom)
+		</code>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		Ce cours a pour but de développer la logique et les bases de la programmation, tout en s’initiant à l’algorithmique.
+	  </td>
+	</tr>
+  </table>
+</div>
+
+
+
+<div id="Donnéesstructurées">
+<table class="table-python">
+	<tr>
+	  <th><h3> <strong><em> Données Structurées</strong></em>
+	  </th>
+	</tr>
+
+	<tr>
+	  <td>
+	  Qu’est-ce qu’une donnée structurée ?
+	  Les données structurées sont des informations organisées dans un format clair et défini, souvent sous forme de tableaux ou de bases de données. Elles sont faciles à lire, à trier et à analyser par des ordinateurs.<br />
+	  
+	  Caractéristiques :<br />
+		- Organisées en lignes et colonnes<br />
+		- Facilement lisibles par des logiciels<br />
+		- Stockées dans des formats comme CSV, SQL, Excel, etc.<br />
+	
+	  Exemple simple :<br />
+	  Imaginons un tableau qui contient des informations sur des étudiants :<br />
+	  </td>
+	</tr>
+
+	<tr>
+	  <td><br />
+		<table class="table-python">
+			<tr>
+			<th>ID</th>
+			<th>Nom</th>
+			<th>Âge</th>
+			<th>Note</th>
+			</tr>
+			
+			<tr>
+			<td>1</td>
+			<td>Alice</td>
+			<td>20</td>
+			<td>16</td>
+			</tr>
+			<tr>
+			<td>2</td>
+			<td>Bilal</td>
+			<td>21</td>
+			<td>14</td>
+			</tr>
+			<tr>
+			<td>3</td>
+			<td>Caroline</td>
+			<td>19</td>
+			<td>18</td>
+			</tr>
+		</table>
+	  </td>
+	</tr>
+	<tr>
+	  <th>
+	  Ce tableau est un exemple de données structurées.
+
+Formats courants :
+1. CSV (Comma-Separated Values)
+Exemple CSV :
+ID,Nom,Âge,Note
+1,Alice,20,16
+2,Bilal,21,14
+3,Caroline,19,18
+
+2. Base de données relationnelle (SQL)
+Exemple en SQL :
+CREATE TABLE Etudiants (
+  ID INT,
+  Nom VARCHAR(50),
+  Age INT,
+  Note FLOAT
+);
+INSERT INTO Etudiants VALUES (1, 'Alice', 20, 16);
+
+Avantages :
+- Facile à trier, filtrer et analyser
+- Compatible avec des outils comme Excel, Power BI, SQL, etc.
+- Très utile pour le big data et la science des données
+
+Comparaison : Données structurées vs non structurées
+
+| Type de données       | Exemple                      | Facile à analyser ? |
+|-----------------------|-------------------------------|----------------------|
+| Structurées           | Table de clients dans Excel   | Oui                  |
+| Non structurées       | Texte d’un email, image       | Non (besoin de traitement spécial) |
+"""
+	  </th>
+	</tr>
+</table>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h3> <strong><em>Les Réseaux Sociaux</strong></em> </h3>
+<h3 id="lesreseauxsociaux"> </h3>
+<br />
+<br />
+
+🔹 Qu’est-ce qu’un réseau social ?
+Un réseau social est une plateforme en ligne qui permet aux utilisateurs de créer un profil, 
+d’interagir avec d’autres personnes, de partager du contenu (texte, photo, vidéo) et de rejoindre des communautés.
+
+Exemples de réseaux sociaux :
+- Facebook : pour rester en contact avec amis et famille
+- Instagram : pour partager des photos et stories
+- Twitter (X) : pour des messages courts appelés tweets
+- TikTok : pour des vidéos courtes et virales
+- LinkedIn : réseau professionnel
+
+Fonctions principales :
+- Créer un profil
+- Ajouter des amis / abonnés
+- Aimer, commenter, partager
+- Publier du contenu
+- Rejoindre des groupes ou des communautés
+
+Utilisation des réseaux sociaux :
+Les réseaux sociaux sont utilisés pour :
+- La communication (amis, famille, collègues)
+- Le marketing digital (entreprises, influenceurs)
+- La veille d'information
+- Le recrutement et les opportunités professionnelles
+- Le divertissement
+
+Risques liés aux réseaux sociaux :
+- Vie privée exposée
+- Cyberharcèlement
+- Désinformation (fake news)
+- Dépendance et perte de temps
+- Problèmes de santé mentale (comparaison, anxiété)
+
+Bonnes pratiques :
+- Paramétrer la confidentialité de son compte
+- Vérifier les sources d’information
+- Limiter le temps passé en ligne
+- Signaler les comportements abusifs
+- Utiliser des mots de passe sécurisés
+
+Quelques chiffres (2024) :
+- Plus de 4,8 milliards d’utilisateurs dans le monde
+- TikTok est l’application la plus téléchargée
+- Instagram et Facebook dominent encore les usages quotidiens
+
+En résumé :
+Les réseaux sociaux sont devenus incontournables dans notre vie quotidienne. 
+Ils permettent de rester connectés, de s’exprimer et d’apprendre, mais demandent aussi un usage responsable.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h3> <strong><em>Informatique Embarquée & Objets Connectés</strong></em> </h3>
+<h3 id="informatiqueembarquee"> </h3>
+<br />
+
+🔹 Définition :L’informatique embarquée désigne les systèmes informatiques intégrés dans des dispositifs (voitures, électroménagers, montres, etc.) 
+et conçus pour réaliser une ou plusieurs fonctions spécifiques, souvent en temps réel.
+
+Exemples :
+- Système de freinage ABS dans une voiture
+- Programme de gestion de température dans un four
+- Tableau de bord numérique d’un avion
+
+Caractéristiques des systèmes embarqués :
+- Spécifiques à une tâche
+- Faible consommation d’énergie
+- Fonctionnement en temps réel
+- Intégration dans des environnements matériels restreints
+
+🔹 Définition : Objets connectés (IoT)
+Les objets connectés sont des dispositifs physiques capables de se connecter à Internet pour collecter, envoyer ou recevoir des données.
+
+Exemples :
+- Montre connectée (suivi de santé)
+- Caméra de surveillance connectée
+- Capteur de température dans une serre agricole
+- Enceinte intelligente (Google Home, Alexa)
+
+Lien entre informatique embarquée et objets connectés :
+Un objet connecté contient souvent un **système embarqué** (microcontrôleur, logiciel) pour gérer ses fonctions, 
+et une **connexion réseau** pour interagir avec d'autres objets ou plateformes cloud.
+
+Applications :
+- Maison intelligente (domotique)
+- Santé (suivi à distance, implants connectés)
+- Agriculture (capteurs de sol, arrosage automatique)
+- Transport (voitures intelligentes, GPS)
+- Industrie (Industrie 4.0, maintenance prédictive)
+
+Enjeux et défis :
+- Sécurité des données
+- Consommation énergétique
+- Compatibilité entre objets
+- Mise à jour logicielle à distance
+
+ En résumé :
+L’informatique embarquée rend les objets "intelligents", tandis que la connectivité les rend "interactifs". 
+C’est la base des technologies modernes comme l’IoT, la smart home ou les véhicules autonomes.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h3> <strong><em>Photographie Numérique</strong></em> </h3>
+<h3 id="photonumerique"> </h3>
+<br />
+🔹 Définition :
+La photographie numérique consiste à capturer des images sous forme de données numériques à l’aide d’un capteur électronique, 
+au lieu d’un film argentique comme dans la photographie traditionnelle.
+
+Fonctionnement de base :
+1. La lumière entre par l’objectif.
+2. Elle atteint un capteur (CMOS ou CCD).
+3. Le capteur convertit la lumière en signaux électriques.
+4. Le processeur de l’appareil transforme ces signaux en fichier image (JPEG, RAW…).
+
+Éléments clés d’un appareil photo numérique :
+- Objectif : capte la lumière
+- Capteur : transforme la lumière en données
+- Processeur : traite l’image
+- Écran LCD : visualisation
+- Carte mémoire : stockage des photos
+
+Paramètres principaux à maîtriser :
+- ISO : sensibilité à la lumière
+- Ouverture (f/) : contrôle la quantité de lumière
+- Vitesse d’obturation : durée d’exposition à la lumière
+- Balance des blancs : ajustement des couleurs selon la lumière
+
+Formats d’image :
+- JPEG : compressé, léger, qualité réduite
+- RAW : non compressé, qualité maximale, plus lourd
+
+Avantages de la photo numérique :
+- Visualisation immédiate des résultats
+- Stockage et retouche faciles
+- Moins coûteuse à long terme (pas de pellicule)
+- Partage rapide via Internet
+
+Inconvénients :
+- Dépend de la batterie
+- Peut générer beaucoup de fichiers à trier
+- Moins d’authenticité que l’argentique pour certains artistes
+
+Retouche et édition :
+Grâce à des logiciels comme Photoshop, Lightroom ou GIMP, les photos peuvent être :
+- Recadrées
+- Retouchées (lumière, contraste, couleurs…)
+- Améliorées ou modifiées de façon créative
+
+Photographie mobile :
+Les smartphones modernes intègrent des capteurs de haute qualité avec intelligence artificielle, 
+ce qui rend la photographie numérique accessible à tous.
+
+En résumé :
+La photographie numérique a révolutionné l’art de capturer des images. 
+Elle permet de combiner précision technique, créativité et partage instantané grâce aux technologies modernes.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h3> <strong><em>Localisation & Cartographie</strong></em> </h3>
+<h3 id="localisationcartographie"> </h3>
+<br />
+🔹 Définition : La localisation géographique consiste à déterminer la position d’un lieu ou d’un objet sur la surface terrestre. Elle peut être absolue (coordonnées GPS) ou relative (par rapport à d'autres lieux).
+
+La cartographie est la science de la représentation de la Terre à l’aide de cartes. Elle permet de visualiser des phénomènes géographiques (relief, climat, population, etc.) grâce à des symboles, des couleurs et des légendes.
+
+Outils de localisation :
+- Le GPS (Global Positioning System)
+- Les cartes topographiques
+- Les SIG (Systèmes d’Information Géographique)
+
+Objectifs pédagogiques :
+- Comprendre comment se localiser sur une carte ou via un GPS.
+- Lire et interpréter des cartes géographiques.
+
+ 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h3> <strong><em>Internet & Web</strong></em> </h3>
+<h3 id="internetweb"> </h3>
+<br />
+
+🔹 Définition : Internet est un réseau mondial d’ordinateurs interconnectés permettant l’échange d’informations. Le Web (ou World Wide Web) est un service d’Internet qui permet de consulter des pages via des navigateurs.
+
+Composants du Web :
+- Navigateurs (Chrome, Firefox)
+- Protocoles (HTTP, HTTPS)
+- URL (Uniform Resource Locator)
+
+Différence entre Internet et Web :
+- Internet est l'infrastructure (le réseau).
+- Le Web est un service utilisant cette infrastructure.
+
+Objectifs pédagogiques :
+- Comprendre le fonctionnement d’Internet et du Web.
+- Savoir naviguer et effectuer une recherche sur le Web.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+Merci d’avoir visité mon site ! J’espère que les cours t’ont aidé."
+<br />
+<br />
+<br />
+
+
+</ul>
+
+<p>Pour découvrir le programme officiel de SNT, <a href="https://eduscol.education.fr/1605/sciences-numeriques-et-technologie-snt" target="_blank">clique ici</a>.</p>
+</body>
+</html>
